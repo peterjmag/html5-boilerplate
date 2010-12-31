@@ -280,6 +280,7 @@ section#welcome header {
 section#welcome div.content section {
   font-size: 1.25em;
   font-family: "museo-sans-1", "museo-sans-2", "Museo Sans", sans-serif;
+  font-weight: 100;
 }
 
 section#web-work header {
