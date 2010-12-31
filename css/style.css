@@ -299,12 +299,20 @@ section#welcome h2 {
   margin-bottom: 0.5em;
 }
 
-section#web header {
+#web header {
   background-color: #FF6600;
 }
 
-section#photography header {
+#print header {
+  background-color: #316D9F;
+}
+
+#photography header {
   background-color: #444;
+}
+
+#contact header {
+  background-color: #95231a;
 }
 
 div.content {
