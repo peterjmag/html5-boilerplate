@@ -230,6 +230,10 @@ button {  width: auto; overflow: visible; }
  /* Primary Styles
     Author: Peter Magenheimer
  */
+ 
+body {
+  background-color: #F9F4E9;
+}
 
 p {
   margin: 0 0 1.5em;
@@ -274,7 +278,7 @@ header h1 {
   position: absolute;
   bottom: -0.175em;
   left: 0.5em;
-  color: #FFF;
+  color: #F9F4E9;
   font: 10.5em/1 "league-gothic-1", "league-gothic-2", "League Gothic", sans-serif;
   text-transform: uppercase;
   text-shadow: 0px -1px 0px black;
@@ -286,7 +290,7 @@ section#welcome header {
 
 section#welcome article {
   font-size: 1.25em;
-  font-family: "museo-sans-1", "museo-sans-2", "Museo Sans", sans-serif;
+  font-family: "museo-slab-1", "museo-slab-2", "Museo Slab", sans-serif;
   font-weight: 100;
 }
 
