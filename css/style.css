@@ -231,6 +231,10 @@ button {  width: auto; overflow: visible; }
     Author: Peter Magenheimer
  */
 
+p {
+  margin: 0 0 1.5em;
+}
+
 nav {
   position: fixed;
   top: 1em;
@@ -281,6 +285,10 @@ section#photography header {
   background-color: #444;
 }
 
+div.content {
+  width: 40em;
+  margin: 2em 2em 2em 5.25em;
+}
 
 
 
