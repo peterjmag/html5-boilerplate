@@ -357,36 +357,36 @@ div.transition div {
   height: 3em;
 }
 
-div.x0 {left:0;}
-div.x1 {left:3em;}
-div.x2 {left:6em;}
-div.x3 {left:9em;}
-div.x4 {left:12em;}
-div.x5 {left:15em;}
+.x0 {left:0;}
+.x1 {left:3em;}
+.x2 {left:6em;}
+.x3 {left:9em;}
+.x4 {left:12em;}
+.x5 {left:15em;}
 
-div.y0 {bottom:0;}
-div.y1 {bottom:3em;}
-div.y2 {bottom:6em;}
-div.y3 {bottom:9em;}
-div.y4 {bottom:12em;}
-div.y5 {bottom:15em;}
+.y0 {bottom:0;}
+.y1 {bottom:3em;}
+.y2 {bottom:6em;}
+.y3 {bottom:9em;}
+.y4 {bottom:12em;}
+.y5 {bottom:15em;}
 
-div.o15 {
+.o15 {
   opacity: 0.15;
   filter: alpha(opacity=15);
 }
 
-div.o50 {
+.o50 {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
-div.o75 {
+.o75 {
   opacity: 0.75;
   filter: alpha(opacity=75);
 }
 
-#welcome div.transition div {
+#welcome .transition div {
   background-color: #FF6600;
 }
 
