@@ -262,7 +262,7 @@ header {
 header h1 {
   position: absolute;
   bottom: -0.175em;
-  left: 1em;
+  left: 0.5em;
   color: #FFF;
   font: 10.5em/1 "League Gothic", sans-serif;
   text-transform: uppercase;
