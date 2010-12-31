@@ -285,28 +285,35 @@ header h1 {
   text-shadow: 0px -1px 0px black;
 }
 
-section#welcome header {
-  background-color: #334F60;
-}
-
-section#welcome article {
+article {
   font-size: 1.25em;
   font-family: "museo-slab-1", "museo-slab-2", "Museo Slab", sans-serif;
   font-weight: 100;
   text-shadow: 1px 1px 0 white;
 }
 
-section#welcome h2 {
-  color: #334F60;
+h2 {
   font-size: 1.5em;
-/*  font-family: "league-gothic-1", "league-gothic-2", "League Gothic", sans-serif; */
+  /* font-family: "league-gothic-1", "league-gothic-2", "League Gothic", sans-serif; */
   font-weight: 500;
-/*  text-transform: uppercase;*/
+  /* text-transform: uppercase;*/
   margin-bottom: 0.5em;
+}
+
+#welcome header {
+  background-color: #334F60;
+}
+
+#welcome h2 {
+  color: #334F60;
 }
 
 #web header {
   background-color: #FF6600;
+}
+
+#web h2 {
+  color: #FF6600;
 }
 
 #print header {
