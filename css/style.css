@@ -277,6 +277,11 @@ section#welcome header {
   background-color: #334F60;
 }
 
+section#welcome div.content section {
+  font-size: 1.25em;
+  font-family: "museo-sans-1", "museo-sans-2", "Museo Sans", sans-serif;
+}
+
 section#web-work header {
   background-color: #FF6600;
 }
@@ -287,7 +292,7 @@ section#photography header {
 
 div.content {
   width: 40em;
-  margin: 2em 2em 2em 5.25em;
+  margin: 2.5em 2em 2em 5.5em;
 }
 
 
