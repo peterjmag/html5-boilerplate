@@ -312,9 +312,53 @@ div.content {
   margin: 2.5em 2em 2em 5.5em;
 }
 
+/* Header transitions */
+div.transition {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18em;
+  height: 18em;
+}
 
+div.transition div {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+}
 
+div.x0 {left:0;}
+div.x1 {left:3em;}
+div.x2 {left:6em;}
+div.x3 {left:9em;}
+div.x4 {left:12em;}
+div.x5 {left:15em;}
 
+div.y0 {bottom:0;}
+div.y1 {bottom:3em;}
+div.y2 {bottom:6em;}
+div.y3 {bottom:9em;}
+div.y4 {bottom:12em;}
+div.y5 {bottom:15em;}
+
+div.o15 {
+  opacity: 0.15;
+  filter: alpha(opacity=15);
+}
+
+div.o50 {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+div.o75 {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+
+#welcome div.transition div {
+  background-color: #FF6600;
+}
 
 
 
