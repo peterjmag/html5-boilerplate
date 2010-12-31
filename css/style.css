@@ -228,13 +228,21 @@ button {  width: auto; overflow: visible; }
 
 
  /* Primary Styles
-    Author:
+    Author: Peter Magenheimer
  */
+
+#container {
+  width: 800em;
+}
+
+#container > section {
+  float: left;
+  width: 160em;
+}
 
 header {
   position: relative;
-  height: 300px;
-  background-color: #334F60;
+  height: 24em;
 }
 
 header h1 {
@@ -244,6 +252,18 @@ header h1 {
   color: #FFF;
   font: 13em/1 "League Gothic", sans-serif;
   text-transform: uppercase;
+}
+
+section#welcome header {
+  background-color: #334F60;
+}
+
+section#web-work header {
+  background-color: #FF6600;
+}
+
+section#photography header {
+  background-color: #3A2064;
 }
 
 
