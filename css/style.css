@@ -260,7 +260,13 @@ nav a {
 
 header {
   position: relative;
-  height: 20em;
+  height: 18em;
+}
+
+@media screen and (max-height: 600px) {
+  header {
+    height: 12em;
+  }
 }
 
 header h1 {
@@ -277,10 +283,20 @@ section#welcome header {
   background-color: #334F60;
 }
 
-section#welcome div.content section {
+section#welcome article {
   font-size: 1.25em;
   font-family: "museo-sans-1", "museo-sans-2", "Museo Sans", sans-serif;
   font-weight: 100;
+}
+
+section#welcome h2 {
+  color: #334F60;
+  font-size: 1.5em;
+/*  font-family: "league-gothic-1", "league-gothic-2", "League Gothic", sans-serif; */
+  font-weight: 500;
+/*  text-transform: uppercase;*/
+  margin-bottom: 0.5em;
+  text-shadow: 1px 1px 0px #A7CAE0;
 }
 
 section#web-work header {
@@ -292,7 +308,7 @@ section#photography header {
 }
 
 div.content {
-  width: 40em;
+  width: 45em;
   margin: 2.5em 2em 2em 5.5em;
 }
 
