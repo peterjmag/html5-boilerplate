@@ -308,7 +308,12 @@ section#welcome h2 {
 }
 
 #print header {
-  background-color: #316D9F;
+  background: #F9F4E9 url("images/light-linen-tiled.jpg") repeat scroll top left;
+}
+
+#print header h1 {
+  color: #8A3F31;
+  text-shadow: 1px -1px 0 black;
 }
 
 #photography header {
