@@ -231,6 +231,20 @@ button {  width: auto; overflow: visible; }
     Author: Peter Magenheimer
  */
 
+nav {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 100;
+}
+
+nav a {
+  float: left;
+  line-height: 1.5em;
+  padding: 0 1em;
+  margin: 0 1em 0 0;
+}
+
 #container {
   width: 800em;
 }
