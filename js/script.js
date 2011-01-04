@@ -1,9 +1,8 @@
-/* Author: 
-
+/* Author: Peter Magenheimer
 */
 
 $(document).ready(function(){
-  $.localScroll({axis:'xy',queue:'true',hash:'true'});
+  $.localScroll({axis:'yx',queue:'true',hash:'true'});
 });
 
 
