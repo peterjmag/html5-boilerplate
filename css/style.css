@@ -285,6 +285,11 @@ header h1 {
   text-shadow: 6px 7px 0px black;
 }
 
+header h1 a:link,
+header h1 a:visited {
+  color: inherit;
+}
+
 article {
   font-size: 1.25em;
   font-family: "museo-slab-1", "museo-slab-2", "Museo Slab", sans-serif;
