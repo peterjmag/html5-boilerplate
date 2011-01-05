@@ -232,6 +232,8 @@ button {  width: auto; overflow: visible; }
  */
  
 body {
+  font-family: "museo-slab-1", "museo-slab-2", "Museo Slab", sans-serif;
+  font-weight: 100;
   background-color: #F9F4E9;
 }
 
@@ -246,11 +248,21 @@ nav {
   z-index: 100;
 }
 
-nav a {
+nav a:link,
+nav a:visited {
   float: left;
+  color: #F9F4E9;
   line-height: 1.5em;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 black;
   padding: 0 1em;
   margin: 0 1em 0 0;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  text-decoration: underline;
 }
 
 #container {
@@ -292,8 +304,6 @@ header h1 a:visited {
 
 article {
   font-size: 1.25em;
-  font-family: "museo-slab-1", "museo-slab-2", "Museo Slab", sans-serif;
-  font-weight: 100;
   text-shadow: 1px 1px 0 white;
 }
 
