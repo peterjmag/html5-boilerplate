@@ -352,6 +352,10 @@ h3 {
   background-color: #8c261b;
 }
 
+#contact h2 {
+  color: #8C261B;
+}
+
 div.content {
   width: 45em;
   margin: 2.5em 2em 2em 5.5em;
@@ -408,6 +412,15 @@ div.transition div {
 /* Web portfolio */
 #waterwise img {
   margin-left: -21px;
+}
+
+/* Contact section */
+.profiles {
+  margin: 0;
+}
+
+.profiles li {
+  list-style: none;
 }
 
 
