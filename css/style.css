@@ -243,14 +243,22 @@ p {
 
 nav {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  width: 100%;
+  padding: 1.5em 0 0.25em;
   z-index: 100;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
 }
 
 nav a:link,
 nav a:visited {
-  float: left;
+  display: block;
   color: #F9F4E9;
   line-height: 1.5em;
   text-decoration: none;
