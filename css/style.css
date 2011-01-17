@@ -335,6 +335,14 @@ h3 {
   color: #334F60;
 }
 
+#welcome .terminator span {
+  float: left;
+  width: 1em;
+  height: 1em;
+  background-color: #334F60;
+  margin-right: 0.5em;
+}
+
 #web header {
   background-color: #FF6600;
 }
