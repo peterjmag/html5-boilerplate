@@ -426,7 +426,8 @@ div.transition div {
 }
 
 /* Web portfolio */
-#cooking-cardio img {
+#cooking-cardio img,
+#aldo-zelnick img {
   margin-left: -22px;
 }
 
