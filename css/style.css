@@ -351,6 +351,11 @@ h3 {
   color: #FF6600;
 }
 
+#slider {
+  width: 720px;
+  height: 592px;
+}
+
 #print header {
   background: #F9F4E9 url("images/light-linen-tiled.jpg") repeat scroll top left;
 }
