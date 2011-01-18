@@ -4,7 +4,7 @@
 $(document).ready(function(){
   $.localScroll({axis:'yx',queue:'true',hash:'true'});
   $('#test-slider').cycle({
-    fx: 'fade',
+    fx: 'scrollHorz',
     timeout: 0,
     next: 'a.slider-next'
   });

@@ -351,9 +351,8 @@ h3 {
   color: #FF6600;
 }
 
-#slider {
-  width: 720px;
-  height: 592px;
+#test-slider {
+  margin-left: -22px;
 }
 
 #print header {
@@ -431,7 +430,6 @@ div.transition div {
 }
 
 /* Web portfolio */
-#cooking-cardio img,
 #aldo-zelnick img {
   margin-left: -22px;
 }
