@@ -7,11 +7,12 @@ $(document).ready(function(){
     fx: 'fade',
     timeout: 0,
     pager: ".slider-nav",
+    activePagerClass: 'active-slide',
 
-    // callback fn that creates a thumbnail to use as pager anchor 
-    pagerAnchorBuilder: function(idx, slide) { 
-      return '<li><a href="#"><img src="' + slide.src + '" width="120" /></a></li>'; 
-    } 
+    // callback fn that creates a thumbnail to use as pager anchor
+    pagerAnchorBuilder: function(idx, slide) {
+      return '<li><a href="#"><img src="' + slide.src + '" width="140" /></a></li>';
+    }
   });
 });
 
