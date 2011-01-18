@@ -426,6 +426,10 @@ div.transition div {
 }
 
 /* Web portfolio */
+#cooking-cardio img {
+  margin-left: -22px;
+}
+
 #waterwise img {
   margin-left: -21px;
 }
