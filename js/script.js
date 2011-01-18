@@ -6,6 +6,7 @@ $(document).ready(function(){
   $('#test-slider').before('<ul class="slider-nav">').cycle({
     fx: 'fade',
     timeout: 0,
+    next: "#test-slider",
     pager: ".slider-nav",
     activePagerClass: 'active-slide',
 
