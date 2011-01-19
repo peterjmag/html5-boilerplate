@@ -355,6 +355,10 @@ h3 {
   margin-left: -22px;
 }
 
+#test-slider:hover {
+  cursor: pointer;
+}
+
 .slider-nav {
   float: right;
   margin: 2em -140px 0 0;
