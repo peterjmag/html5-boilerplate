@@ -3,11 +3,12 @@
 
 $(document).ready(function(){
   $.localScroll({axis:'yx',queue:'true',hash:'true'});
-  $('#test-slider').before('<ul class="slider-nav">').cycle({
+
+  $('.slides').before('<ul class="slides-nav">').cycle({
     fx: 'fade',
     timeout: 0,
-    next: "#test-slider",
-    pager: ".slider-nav",
+    next: ".slides",
+    pager: ".slides-nav",
     activePagerClass: 'active-slide',
 
     // callback fn that creates a thumbnail to use as pager anchor
