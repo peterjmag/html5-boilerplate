@@ -351,37 +351,6 @@ h3 {
   color: #FF6600;
 }
 
-.slides:hover {
-  cursor: pointer;
-}
-
-.slides-nav {
-  float: right;
-  margin: 2em -140px 0 0;
-}
-
-.slides-nav li {
-  list-style: none;
-  list-style-image: none;
-}
-
-.slides-nav img {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-
-.slides-nav .active-slide img,
-.slides-nav a:hover img,
-.slides-nav a:active img,
-.slides-nav a:focus img {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.slides-nav a:focus {
-  outline: none;
-}
-
 #print header {
   background: #F9F4E9 url("images/light-linen-tiled.jpg") repeat scroll top left;
 }
@@ -457,6 +426,37 @@ div.transition div {
 }
 
 /* Web portfolio */
+.slides:hover {
+  cursor: pointer;
+}
+
+.slides-nav {
+  float: right;
+  margin: 2em -140px 0 0;
+}
+
+.slides-nav li {
+  list-style: none;
+  list-style-image: none;
+}
+
+.slides-nav img {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.slides-nav .active-slide img,
+.slides-nav a:hover img,
+.slides-nav a:active img,
+.slides-nav a:focus img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.slides-nav a:focus {
+  outline: none;
+}
+
 #cooking-cardio .slides {
   margin-left: -22px;
 }
