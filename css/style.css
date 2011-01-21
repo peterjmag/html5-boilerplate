@@ -362,6 +362,14 @@ h3 {
   color: #FF6600;
 }
 
+#play header {
+  background-color: #75D7F7;
+}
+
+#play h2 {
+  color: #75D7F7;
+}
+
 #print header {
   background: #F9F4E9 url("images/light-linen-tiled.jpg") repeat scroll top left;
 }
