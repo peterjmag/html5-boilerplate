@@ -2,7 +2,11 @@
 */
 
 $(document).ready(function(){
-  $.localScroll({axis:'yx',queue:'true',hash:'true'});
+  $.localScroll({
+    axis: 'yx',
+    queue: 'true',
+    hash: 'true',
+  });
 
   $('.slides').each(function() {
     var p = this.parentNode;
